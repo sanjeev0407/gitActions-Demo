@@ -51,6 +51,6 @@ jobs:
       - name: Java version
         run: java -version
       - name: maven version
-        run: mvvn --version
+        run: mvn --version
       - name: Terraform
         run: terraform --version
