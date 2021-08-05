@@ -47,3 +47,10 @@ jobs:
           config-file: # optional
           # Whether prerelease versions should be matched with non-exact versions (for example 5.0.0-preview.6 being matched by 5, 5.0, 5.x or 5.0.x). Defaults to false if not provided.
           include-prerelease: # optional
+          
+      - name: Java version
+        run: java -version
+      - name: maven version
+        run: mvvn --version
+      - name: Terraform
+        run: terraform --version
